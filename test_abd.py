@@ -18,7 +18,7 @@ def teardown_function():
     driver.quit()
 def my_credential():
     return[
-        ('abdeali@gmail.com', 'abdeali@123'),
+        ('abdealidodia@gmail.com', 'abdeali@123'),
         ('ali@gmail.com', 'ali@123'),
         ('abdali@gmail.com', 'abd@123')
     ]
