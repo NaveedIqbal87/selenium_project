@@ -20,7 +20,7 @@ def my_credential():
     return[
         ('abdeali@gmail.com', 'abdeali@123'),
         ('ali@gmail.com', 'ali@123'),
-        ('abd@gmail.com', 'abd@123')
+        ('abdali@gmail.com', 'abd@123')
     ]
 @pytest.mark.parametrize("username,password",my_credential())
 def test_login(username,password):
